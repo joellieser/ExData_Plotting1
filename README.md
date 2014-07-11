@@ -93,9 +93,13 @@ dev.off()
 #### execute code, as shown below
 #### Note: Your working directory (and thus, first line below) may differ 
 > setwd("~/Desktop/Data Science Track/4 - Exploratory Data Analysis/Assignment 1")
+
 > source("plot1.R")
+
 > source("plot2.R")
+
 > source("plot3.R")
+
 > source("plot4.R")
 
-The resulting .png files are stored in the working directory where the source data is located.
+#### The resulting .png files are stored in the working directory where the source data is located.
