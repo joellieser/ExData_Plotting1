@@ -34,10 +34,10 @@ Sub_metering_3: energy sub-metering No. 3 (in watt-hour of active energy). It co
 ## Script Information
 There are four (4) scripts contained in this branch:
 
-plot1.R
-plot2.R
-plot3.R
-plot4.R
+* plot1.R
+* plot2.R
+* plot3.R
+* plot4.R
 
 ## Code Explanation
 All four scripts contain a set of shared code, as shown below (with comments describing what the following line does:
@@ -91,6 +91,7 @@ dev.off()
 ## Execution Information
 #### set working directory to location of input data
 #### execute code, as shown below
+#### Note: Your working directory (and thus, first line below) may differ 
 > setwd("~/Desktop/Data Science Track/4 - Exploratory Data Analysis/Assignment 1")
 > source("plot1.R")
 > source("plot2.R")
