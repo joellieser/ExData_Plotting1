@@ -88,10 +88,12 @@ All scripts end by closing the png device using the following code:
 #### close device
 dev.off()
 
-## Execution Information
-#### set working directory to location of input data
-#### execute code, as shown below
-#### Note: Your working directory (and thus, first line below) may differ 
+## Instructions for Executing
+#### Open an R session
+#### Set working directory to location of input data
+#### Execute code, as shown below
+#### NOTE: Your working directory (and thus, first line below) may differ 
+
 > setwd("~/Desktop/Data Science Track/4 - Exploratory Data Analysis/Assignment 1")
 
 > source("plot1.R")
